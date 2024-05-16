@@ -80,7 +80,7 @@ const Gallery = () => {
   const [image, setImage] = useState(imagesList[0].id)
 
   const displayImg = id => {
-    setImage((image: id))
+    setImage( id)
   }
   const {imageUrl, imageAltText} = imagesList[image]
   return (
